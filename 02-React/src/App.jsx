@@ -1,8 +1,14 @@
+import Logout,{Login,Setting,Username} from "./UserComponent.jsx";
+
 const newfunction = () => {
   return (
     <>
     <h3>working.!</h3>
+    <Login/>
+    <Logout/>
+    <Setting/>
     <Fruit/>
+    <p>Username is {Username}</p>
     <p>sum is {sum()}</p>
     </>
   );
